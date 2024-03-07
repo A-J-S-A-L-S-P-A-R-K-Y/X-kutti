@@ -6,12 +6,12 @@ if (!SUDO) {
 };*/
 
 
-global.owner = process.env.SUDO || ["917012984396","917594898804"];
+global.owner = process.env.SUDO || ["919539412641"];
 module.exports = {
-  mongodb: process.env.MONGODB_URL || "mongodb+srv://Krizvedi:VevQYIr1aR6zuSUs@cluster0.kglzhgp.mongodb.net/?retryWrites=true&w=majority",
+  mongodb: process.env.MONGODB_URL || "mongodb+srv://ajsalsd:rioHWvIFV7nkxkWz@cluster0.d0hnfmp.mongodb.net/?retryWrites=true&w=majority",
   BOT_INFO: process.env.BOT_INFO || "X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4;https://i.imgur.com/MsNQ8wf.jpg",
   STICKER_DATA: process.env.STICKER_DATA || "X-BOTMD;ASWIN SPARKY",
-  SESSION_ID: process.env.SESSION_ID || "X-BOT-MD:LedgeForesee",
+  SESSION_ID: process.env.SESSION_ID || "Axl~Dp1mhL$D$Alq!Zsnw#k3",
   MENTION: process.env.MENTION || "true",
   MENTION_DATA: process.env.MENTION_DATA || 'X-BOT-MD;MULTI-DEVICE BOT BY TEAM EX-BOT-Z;https://wa.me/917012984396;https://i.imgur.com/3cMVKBk.jpeg',
   MENTION_AUDIO: process.env.MENTION_AUDIO || ["https://i.imgur.com/h0mNy8p.mp4","https://i.imgur.com/zNWjhDn.mp4","https://i.imgur.com/Ya3325t.mp4","https://i.imgur.com/k4FE9mA.mp4","https://i.imgur.com/X5WGE9W.mp4","https://i.imgur.com/veoDgRH.mp4","https://i.imgur.com/CZ3eJgw.mp4","https://i.imgur.com/6QFiAoM.mp4","https://i.imgur.com/lAbt9ew.mp4"],
