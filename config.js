@@ -8,7 +8,7 @@ if (!SUDO) {
 
 global.owner = process.env.SUDO || ["919539412641"];
 module.exports = {
-  mongodb: process.env.MONGODB_URL || "mongodb+srv://ajsalsd:rioHWvIFV7nkxkWz@cluster0.d0hnfmp.mongodb.net/?retryWrites=true&w=majority",
+  mongodb: process.env.MONGODB_URL || "mongodb+srv://telaccww4f:x3oC7N2pSgTUzFYA@cluster0.pwjwmfb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   BOT_INFO: process.env.BOT_INFO || "X-BOT-MD;Aswin Sparky;https://graph.org/file/9b477aaa6b90bbb46e4be.mp4;https://i.imgur.com/MsNQ8wf.jpg",
   STICKER_DATA: process.env.STICKER_DATA || "X-BOTMD;ASWIN SPARKY",
   SESSION_ID: process.env.SESSION_ID || "X-BOT-MD:NightyLikeness",
