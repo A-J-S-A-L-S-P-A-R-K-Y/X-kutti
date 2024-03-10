@@ -37,7 +37,7 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 const {
   getPluginURLs, // -------------------- GET ALL PLUGIN DATA FROM DATABASE
-} = require("./lib/MongoDB/MONGO_VEDI.js");
+} = require("./lib/SiliconDB/siliconDB.js");
 
 const chalk = require("chalk");
 const store = makeInMemoryStore({
@@ -183,7 +183,7 @@ const getVersionWaweb = () => {
 
     }
     if (connection==="open") {
-      let text = `_*x-ʙᴏᴛ ᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ*_ ${readMore} \n\n
+      let text = `_*REDY AVUO NOOKK🥲✅️*_ ${readMore} \n\n
 _*Auto status read :*_ *_${X.AUTO_STATUS_VIEW}_*\n
 _*Always online : false*_\n
 _*Prefix : ${X.PREFIX}*_\n
