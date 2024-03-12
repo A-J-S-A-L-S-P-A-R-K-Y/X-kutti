@@ -37,7 +37,7 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 const {
   getPluginURLs, // -------------------- GET ALL PLUGIN DATA FROM DATABASE
-} = require("./lib/SiliconDB/siliconDB.js");
+} = require("./lib/MongoDB/MONGO_VEDI.js");
 
 const chalk = require("chalk");
 const store = makeInMemoryStore({
