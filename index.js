@@ -89,7 +89,7 @@ const getVersionWaweb = () => {
         return version
 }
 //------------------------------------------------------------------------------------------------
-  try {
+/*  try {
     await mongoose.connect(X.mongodb).then(() => {
       console.log(
         chalk.greenBright("Connecting to MongoDB📊\n")
@@ -169,7 +169,7 @@ const getVersionWaweb = () => {
       );
     }
   }
-
+*/
   await readcommands();
 
   //Xbot.ev.on("creds.update", saveState);
